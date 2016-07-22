@@ -72,10 +72,126 @@ v
             android:layout_weight="0.09" />
     </LinearLayout>
 
+
+    <FrameLayout
+        android:id="@+id/lis1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="An"
+            android:layout_marginLeft="-8dp"
+            android:id="@+id/textView5"
+            android:background="#f0942b"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+/>
+
+
+        <ImageView
+            android:id="@+id/circle_list"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/transp_circle_branca001"
+            android:foregroundGravity="center_vertical" />
+
+        <GridLayout
+            android:layout_width="86dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center"></GridLayout>
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/lis2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        android:background="#3cb935">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Jo"
+            android:layout_marginLeft="-8dp"
+            android:id="@+id/textView6"
+            android:background="#52ed30"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/circle_list2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/transp_circle_branca001"
+            android:foregroundGravity="center_vertical" />
+
+        <GridLayout
+            android:layout_width="86dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center"></GridLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/lis1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="An"
+            android:layout_marginLeft="-8dp"
+            android:id="@+id/textView5"
+            android:background="#e51c1c"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/circle_list"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/transp_circle_branca001"
+            android:foregroundGravity="center_vertical" />
+
+        <GridLayout
+            android:layout_width="86dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center"></GridLayout>
+
+
+    </FrameLayout>
+
+
+
+
+
     <ListView
-        android:layout_width="236dp"
-        android:layout_height="425dp"
-        android:layout_marginTop="10dp"
-        android:id="@+id/listView" />
+        android:id="@+id/list"
+        android:layout_width="281dp"
+        android:layout_height="match_parent"
+        android:divider="#FFECECEC"
+        android:dividerHeight="2sp"
+        />
 
 </LinearLayout>

@@ -18,7 +18,6 @@ public class ListMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista);
 
-        ListView lista = (ListView) findViewById(R.id.listView);
 
 
 
