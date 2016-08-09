@@ -8,6 +8,12 @@ import java.util.List;
  */
 public class Pessoas {
 
+    private String name;
+
+
+    private List<Pessoas> usuarios;
+
+
     private List<String> pessoas;
 
 
@@ -24,8 +30,32 @@ public class Pessoas {
     }
 
 
-    public List<String> getPessoas(){
-        return listaPessoas();
+    public void setPessoas(List<Pessoas> pessoas){
+        this.usuarios = pessoas;
+
     }
+
+
+    public List<Pessoas> getPessoas()
+    {
+        return usuarios;
+    }
+
+
+    public String getName(){
+        return name;
+    }
+
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    @Override
+    public String toString(){
+        return name;
+    }
+
+
 
 }
